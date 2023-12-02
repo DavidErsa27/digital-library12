@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" integrity="your-integrity-code" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>D-LIBRARY</title>
+    <link rel="icon" href="/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <!-- navbar start -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark shadow-sm p-2 mb-3 rounded shadow-lg p-1 mb-0 rounded">
+        <div class="container-fluid mx-3 my-1">
+            <a class="navbar-brand">
+                <img src="/img/logo.png" class="logo nav-pst">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav navbar-set me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nav-pst active" aria-current="page" href="/index.html">
+                            <button type="button" class="btn nav-teks ">Beranda</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-pst" aria-current="page" href="/terbaru/terbaru.html">
+                            <button type="button" class="btn nav-teks ">Terbaru</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-pst" aria-current="page" href="/daftar_isi/daftar_isi.html">
+                            <button type="button" class="btn nav-teks ">Daftar Isi</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-pst mb-1" aria-current="page" href="/kategori/kategori.html">
+                            <button type="button" class="btn nav-teks ">Kategori</button>
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- carosel image start -->
+    <div id="carousel" class="container-fluid text-dark">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel ">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/banner1.jpg " class="carousel-img rounded mx-auto d-block w-380 img-fluid" alt="... ">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="carousel-text1 card-title " href="...">SOLO LEVELING</a>
+                        <p class="carousel-text2">CHAPTER 1-190 (END)</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="/img/banner1.jpg " class="carousel-img rounded mx-auto d-block w-380 img-fluid" alt="... ">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="carousel-text1 card-title " href="...">SOLO LEVELING</a>
+                        <p class="carousel-text2">CHAPTER 1-190 (END)</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="/img/banner1.jpg " class="carousel-img rounded mx-auto d-block w-380 img-fluid" alt="... ">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="carousel-text1 card-title " href="...">SOLO LEVELING</a>
+                        <p class="carousel-text2">CHAPTER 1-190 (END)</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden "></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+        </div>
+    </div>
+    <!-- carosel image end -->
+
+
+    <!-- konten terpopuler hari ini start -->
+    <div id="daftar-isi" class=" container bg-dark rounded-3 mt-3 ">
+        <h2 class="my-2 text-light text-judul">TERPOPULER HARI INI</h2>
+        <div class="garis-beranda1 "></div>
+        <div class="main-content ">
+            <div class="content-item border ">
+                <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara " alt="Logo Negara ">
+                <img src="/img/demon.jpg " alt="I'm Really Not The Demon God's Lackey" class="text-isi">
+                <a href="..." class="isi-daftar mt-2 rounded-3 " data-bs-toggle="tooltip " data-bs-placement="right " title="I'm Really Not The Demon God's Lackey ">I'm Really Not The Demon God's Lackey</a>
+                <a href="..." class="isi-daftar mt-1 rounded-3 ">Chapter 1</a>
+                <small class="fixed-rating ">
+                    <p id="text-rating">4.5</p>
+                </small>
+            </div>
+            <div class="content-item border ">
+                <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara " alt="Logo Negara ">
+                <img src="/img/villain.jpeg " alt="Villain To Kill " class="text-isi">
+                <a href="..." class="isi-daftar mt-2 rounded-3 " data-bs-toggle="tooltip " data-bs-placement="right " title="Villain To Kill ">Villain To Kill</a>
+                <a href="..." class="isi-daftar mt-1 rounded-3 ">Chapter 1</a>
+                <small class="fixed-rating ">
+                    <p id="text-rating">4.5</p>
+                </small>
+            </div>
+            <div class="content-item border ">
+                <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara " alt="Logo Negara ">
+                <img src="/img/Superhuman-Battlefield.jpg " alt=" Superhuman Battlefield" class="text-isi ">
+                <a href="... " class="isi-daftar mt-2 rounded-3 " data-bs-toggle="tooltip " data-bs-placement="right " title="Superhuman Battlefield ">Superhuman Battlefield</a>
+                <a href="... " class="isi-daftar mt-1 rounded-3 ">Chapter 1</a>
+                <small class="fixed-rating ">
+                    <p id="text-rating">4.5</p>
+                </small>
+            </div>
+            <div class="content-item border ">
+                <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara " alt="Logo Negara ">
+                <img src="/img/constelation.jpg " alt="The Constellations Are My Disciples " class="text-isi ">
+                <a href="... " class="isi-daftar mt-2 rounded-3 " data-bs-toggle="tooltip " data-bs-placement="right " title="The Constellations Are My Disciples ">The Constellations Are My Disciples</a>
+                <a href="... " class="isi-daftar mt-1 rounded-3 ">Chapter 1</a>
+                <small class="fixed-rating ">
+                    <p id="text-rating">4.5</p>
+                </small>
+            </div>
+            <div class="content-item border "> <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara " alt="Logo Negara ">
+                <img src="/img/solo leveling.jpg " alt="Solo Leveling " class="text-isi ">
+                <a href="... " class="isi-daftar mt-2 rounded-3 " data-bs-toggle="tooltip " data-bs-placement="right " title="Solo Leveling ">Solo Leveling</a>
+                <a href="... " class="isi-daftar mt-1 rounded-3 ">Chapter 1</a>
+                <small class="fixed-rating ">
+                    <p id="text-rating">4.5</p>
+                </small>
+            </div>
+
+        </div>
+    </div>
+    <!-- konten terpopuler hari ini end -->
+
+
+    <!-- side konten start -->
+    <div id="konten-side" class="card bg-dark text-light mb-3 ">
+        <h4 class="judul mx-2 ">TERPOPULER</h4>
+        <div class="garis-beranda2 "></div>
+        <div class="row g-0 my-1">
+            <div class="image-container">
+                <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara-side " alt="Logo Negara ">
+            </div>
+            <div class="col-md-4">
+                <img src="/img/villain.jpeg" class="img-fluid rounded-3 border my-2 mx-2 side-pict" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="side-body card-body ">
+                    <div class="side-text">
+                        <a class="side-title card-title " href="..." data-bs-toggle="tooltip" title="Villain to Kill ">Villain to Kill</a>
+                        <p class="side-text2 card-text "><b>Genres:</b> Action, Drama, Mystery, Romance, Shounen, Supernatural</p>
+                    </div>
+                    <small class=" fixed-rating-side">
+                        <span class="text-rate-side">4.5</span>
+                        </small>
+                </div>
+            </div>
+        </div>
+        <div class="garis-beranda2 "></div>
+        <div class="row g-0 my-1">
+            <div class="image-container">
+                <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara-side " alt="Logo Negara ">
+            </div>
+            <div class="col-md-4">
+                <img src="/img/Superhuman-Battlefield.jpg" class="img-fluid rounded-3 border my-2 mx-2 side-pict" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="side-body card-body ">
+                    <div class="side-text ">
+                        <a class="side-title card-title" href="..." data-bs-toggle="tooltip" title="Superhuman Battlefield ">Superhuman Battlefield</a>
+                        <p class="side-text2 card-text "><b>Genres:</b> Action, Drama, Mystery, Supernatural</p>
+                    </div>
+                    <small class=" fixed-rating-side">
+                        <span class="text-rate-side">4.5</span>
+                        </small>
+                </div>
+            </div>
+        </div>
+        <div class="garis-beranda2 "></div>
+        <div class="row g-0 my-1">
+            <div class="image-container">
+                <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara-side " alt="Logo Negara ">
+            </div>
+            <div class="col-md-4">
+                <img src="/img/solo leveling.jpg" class="img-fluid rounded-3 border my-2 mx-2 side-pict" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="side-body card-body ">
+                    <div class="side-text">
+                        <a class="side-title card-title" href="..." data-bs-toggle="tooltip" title="Solo Leveling ">Solo Leveling</a>
+                        <p class="side-text2 card-text "><b>Genres:</b> Action, Drama, Mystery, Romance, Shounen, Supernatural</p>
+                    </div>
+                    <small class=" fixed-rating-side">
+                        <span class="text-rate-side">4.5</span>
+                        </small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- side konten end -->
+
+
+    <!-- pemberitahuan start-->
+    <div id="pemberitahuan" class="container  bg-dark text-light mb-2 ">
+        <div class="row align-items-start borde ">
+            <div class="col-12  ">
+                <h2 class="text-judul my-2 ">PUSAT INFORMASI D-LIBRARY</h2>
+                <div class="garis-beranda2 "></div>
+                <div class="row align-items-center my-2 ">
+                    <div class="col ">
+                        <p>
+                            <a href="/index.html">
+                                <strong>D-Library</strong>
+                            </a>
+                            merupakan situs web khusus yang dirancang untuk mengumpulkan berbagai jenis buku, komik, dan bahkan film. Disini anda bisa membaca buku, komik, dan menonton film secara online dengan mudah. Kami memiliki koleksi yang sangat lengkap dan selalu menambahkan
+                            konten baru setiap hari, dan yang terbaik, semuanya gratis. Kami menawarkan tampilan modern yang dirancang agar nyaman digunakan, sehingga Anda bisa menikmati bacaan dan hiburan tanpa gangguan.
+                            <p>
+                                <span class="fas fa-angle-right"></span> Kenapa harus baca di D-LIBRARY ?
+                                <ol>
+                                    <li>Ketika menggunakan Web kami, pengguna dapat mengakses seluruh buku/film secara Gratis</li>
+                                    <li>Terdapat berbagai macam kategori jenis buku/film sesuai dengan favorit pengguna</li>
+                                    <li>Koleksi buku/film di web kami lengkap, jika tidak ada bisa langsung request ke admin</li>
+                                    <li>Seluruh konten dalam website kami selalu up to date, agar tidak ketinggalan hal seru lainnya</li>
+                                </ol>
+                                <span class="fas fa-angle-right"></span> Untuk pengumuman pembaruan fitur/maintenance yang akan datang akan kami beritahukan kedepannya!
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- pemberitahuan end-->
+
+    <!-- konten  start -->
+    <div id="daftar-isi" class=" container bg-dark rounded-3 mt-4 ">
+        <div class="main-content ">
+            <div class="content-item border ">
+                <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara " alt="Logo Negara ">
+                <img src="/img/demon.jpg " alt="I'm Really Not The Demon God's Lackey" class="text-isi">
+                <a href="..." class="isi-daftar mt-2 rounded-3 " data-bs-toggle="tooltip " data-bs-placement="right " title="I'm Really Not The Demon God's Lackey ">I'm Really Not The Demon God's Lackey</a>
+                <a href="..." class="isi-daftar mt-1 rounded-3 ">Chapter 1</a>
+                <small class="fixed-rating ">
+                <p id="text-rating">4.5</p>
+            </small>
+            </div>
+            <div class="content-item border ">
+                <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara " alt="Logo Negara ">
+                <img src="/img/villain.jpeg " alt="Villain To Kill " class="text-isi">
+                <a href="..." class="isi-daftar mt-2 rounded-3 " data-bs-toggle="tooltip " data-bs-placement="right " title="Villain To Kill ">Villain To Kill</a>
+                <a href="..." class="isi-daftar mt-1 rounded-3 ">Chapter 1</a>
+                <small class="fixed-rating ">
+                <p id="text-rating">4.5</p>
+            </small>
+            </div>
+            <div class="content-item border ">
+                <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara " alt="Logo Negara ">
+                <img src="/img/Superhuman-Battlefield.jpg " alt=" Superhuman Battlefield" class="text-isi ">
+                <a href="... " class="isi-daftar mt-2 rounded-3 " data-bs-toggle="tooltip " data-bs-placement="right " title="Superhuman Battlefield ">Superhuman Battlefield</a>
+                <a href="... " class="isi-daftar mt-1 rounded-3 ">Chapter 1</a>
+                <small class="fixed-rating ">
+                <p id="text-rating">4.5</p>
+            </small>
+            </div>
+            <div class="content-item border ">
+                <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara " alt="Logo Negara ">
+                <img src="/img/constelation.jpg " alt="The Constellations Are My Disciples " class="text-isi ">
+                <a href="... " class="isi-daftar mt-2 rounded-3 " data-bs-toggle="tooltip " data-bs-placement="right " title="The Constellations Are My Disciples ">The Constellations Are My Disciples</a>
+                <a href="... " class="isi-daftar mt-1 rounded-3 ">Chapter 1</a>
+                <small class="fixed-rating ">
+                <p id="text-rating">4.5</p>
+            </small>
+            </div>
+            <div class="content-item border "> <img src="https://4.bp.blogspot.com/-DUoCUQaTABw/WzqO5s09CrI/AAAAAAAAAJM/cycKYHnjf6QPj9vpgyhttOj4zAvC84BhwCLcBGAs/s1600/Korea%2BFlag%2Bvector%2Blogo.png " class="logo-negara " alt="Logo Negara ">
+                <img src="/img/solo leveling.jpg " alt="Solo Leveling " class="text-isi ">
+                <a href="... " class="isi-daftar mt-2 rounded-3 " data-bs-toggle="tooltip " data-bs-placement="right " title="Solo Leveling ">Solo Leveling</a>
+                <a href="... " class="isi-daftar mt-1 rounded-3 ">Chapter 1</a>
+                <small class="fixed-rating ">
+                <p id="text-rating">4.5</p>
+            </small>
+            </div>
+
+        </div>
+    </div>
+    <!-- konten end -->
+
+    <!-- footer start -->
+    <div id="footer" class="container-fluid bg-dark text-light mt-5">
+        <div class="row align-items-center my-2  ">
+            <div id="icon-medsos" class="">
+                <ul>
+                    <a id="icon1" href="https://wa.me/6285748980237" class="">
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+
+                        <a id="icon2" href="..." class="">
+                            <i class="fa-brands fa-instagram " aria-hidden="true"></i>
+                        </a>
+                        <a id="icon3" href="..." class="">
+                            <i class="fa-brands fa-telegram " aria-hidden="true"></i>
+                        </a>
+                </ul>
+            </div>
+
+
+            <div class=" col-7 mx-auto text-center ">
+                <p id="text1" class="">Semua Buku dan Film di website ini hanya preview dari aslinya, mungkin banyak terdapat kesalahan bahasa, nama tokoh, dan alur cerita. Untuk versi originalnya silahkan beli jika sudah tersedia di kotamu. </p>
+                <p id="copy">&copy; 2023 D-LIBRARY. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer end-->
+
+
+</body>
+
+</html>
